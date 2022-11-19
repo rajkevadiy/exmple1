@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".android7">
+
+    <Button
+        android:id="@+id/buttom1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="b1" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="b2"
+            android:layout_alignParentRight="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="b3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="b4"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:id="@+id/buttom5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="b5"
+        android:layout_toRightOf="@+id/buttom1"
+        android:layout_below="@+id/buttom1"/>
+
+    <Button
+        android:id="@+id/buttom6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="b6"
+        android:layout_toRightOf="@+id/buttom5"
+        android:layout_below="@+id/buttom5"/>
+
+
+    <Button
+        android:id="@+id/buttom7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="b7"
+        android:layout_toLeftOf="@+id/buttom6"
+        android:layout_below="@+id/buttom6"/>
+
+
+    <Button
+        android:id="@+id/buttom8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttom7"
+        android:layout_toLeftOf="@+id/buttom7"
+        android:text="8" />
+    
+
+</RelativeLayout>
